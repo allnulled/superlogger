@@ -1,4 +1,4 @@
-require(__dirname + "/superlogger.unbundled.js");
+require(__dirname);
 
 const loggers = {};
 
