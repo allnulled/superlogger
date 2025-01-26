@@ -1,6 +1,6 @@
 # superlogger
 
-Logger with some features: cross-env, leveling, deactivation, event emitter, before and after, centralization, custom ids, function debugging.
+Logger with some features: cross-env, leveling, deactivation, event emitter, before and after, centralization, custom ids, function stringification.
 
 ## Installation
 

@@ -1,7 +1,7 @@
 {
   "name": "superlogger",
   "version": "1.0.0",
-  "description": "Logger with classes, centralized deactivation",
+  "description": "Logger with some features: cross-env, leveling, deactivation, event emitter, before and after, centralization, custom ids, function stringification.",
   "main": "superlogger.js",
   "scripts": {
     "serve": "npx http-server -c-1 . -o coverage",
