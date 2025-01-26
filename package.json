@@ -1,0 +1,22 @@
+{
+  "name": "superlogger",
+  "version": "1.0.0",
+  "description": "Logger with classes, centralized deactivation",
+  "main": "superlogger.js",
+  "scripts": {
+    "serve": "npx http-server -c-1 . -o coverage",
+    "build": "htmlbundler --list bundlelist.js --id Superlogger --output superlogger.bundled.js --wrap false && npm test",
+    "test": "npx universal-tester test.js",
+    "coverage": "npx nyc npx universal-tester test.js"
+  },
+  "keywords": [],
+  "author": "allnulled",
+  "license": "WTFPL",
+  "nyc": {
+    "all": true,
+    "include": ["superlogger.unbundled.js"],
+    "exclude": [],
+    "reporter": ["text", "html"],
+    "extension": [".js"]
+  }
+}
